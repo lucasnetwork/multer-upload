@@ -5,7 +5,7 @@
   "author": "Lucas Santos Ribeiro <lucassr45@protonmail.com>",
   "license": "MIT",
   "scripts": {
-    "start":"nodemon index.js"
+    "start": "nodemon ./src/index.js"
   },
   "husky": {
     "hooks": {
@@ -23,6 +23,7 @@
   },
   "devDependencies": {
     "cz-conventional-changelog": "3.1.0",
+    "eslint": "^6.8.0",
     "husky": "^4.2.3",
     "nodemon": "^2.0.2"
   }
